@@ -1,21 +1,34 @@
 import os
-from dotenv import load_dotenv
+from dotenv 
+import load_dotenv
 import json
-from tavily import TavilyClient
+from tavily 
+import TavilyClient
 import base64
-from PIL import Image
+from PIL 
+import Image
 import io
 import re
-from anthropic import Anthropic, APIStatusError, APIError
+from anthropic 
+import Anthropic 
+import APIStatusError 
+import APIError
 import difflib
 import time
-from rich.console import Console
-from rich.panel import Panel
-from rich.syntax import Syntax
-from rich.markdown import Markdown
+from rich.console 
+import Console
+from rich.panel 
+import Panel
+from rich.syntax 
+import Syntax
+from rich.markdown 
+import Markdown
 import asyncio
 import aiohttp
-from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
+from rich.progress 
+import Progress 
+import SpinnerColumn 
+import TextColumn, BarColumn
 import datetime
 import venv
 import subprocess
